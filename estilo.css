@@ -1,0 +1,42 @@
+nav{
+	font-size: 25px;
+	background: #1C1C1C;
+	position: absolute;
+	height: 80px; width: 750px;
+	right: 150px; left: 100px;
+	top: 80px;
+	border-top:6px solid #008B8B;
+	
+}
+nav a{
+color: white;
+text-decoration: none;
+		
+}
+ ul nav ul{
+position: absolute;
+display:none;
+box-shadow:6px 6px 4px #222;
+
+}
+nav ul{
+
+
+}
+nav li{
+	list-style:none;
+	display: inline-block;
+}
+nav li:hover{
+	background: #00BFFF;
+	height:60px;
+	
+}
+nav li a{
+display: block;
+padding: 0 20px;
+line-height: 45px;
+height: 45px;
+float: left;
+
+}
